@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>Hillsdale.OnlineCourses</AssemblyName>
+        <RootNamespace>Hillsdale.OnlineCourses</RootNamespace>
+      <UserSecretsId>7031550f-fa94-44ca-ab7e-981a13ec8cc2</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+        <PackageReference Include="AWSSDK.Lambda" Version="3.5.0-beta" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+        <PackageReference Include="MySql.Data" Version="8.1.0" />
+        <PackageReference Include="VimeoDotNet" Version="2.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Database\" />
+    </ItemGroup>
+</Project>
